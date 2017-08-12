@@ -1,0 +1,21 @@
+{
+  "name": "WikiDataReader",
+  "authors": [
+    {
+      "name": "linxiaofang",
+      "email": "lynseylin@qq.com"
+    }
+  ],
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  },
+  "require-dev": {
+  },
+  "require": {
+    "jeroen/json-dump-reader": "~1.4",
+    "mongodb/mongodb": "^1.1"
+  }
+}
