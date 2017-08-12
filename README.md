@@ -1,13 +1,13 @@
 # wikidata-to-mongodb
 
-Introduction  
+## Introduction  
 Read from wikidata json file and insert into mongodb
 
-Requires  
-> php: >=5.6.0  
+## Requires  
+> php: >=5.6.0 
 > MongoDB PHP Driver
 
-Installation  
+## Installation  
 Add two dependencies to your project's composer.json file. Here is an minimal example of a composer.json file:
 
 > "require": { 
@@ -20,7 +20,7 @@ Add two dependencies to your project's composer.json file. Here is an minimal ex
 >
 > composer install
 
-Usage
+## Usage
 > nohup php singleinsert.php >nohup.log 2>&1  
 > or if you has suffient memory, you can use bulk insert:  
 > nohup php bulkinsert.php >nohup.log 2>&1
