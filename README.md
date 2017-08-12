@@ -20,7 +20,9 @@ Add two dependencies to your project's composer.json file. Here is an minimal ex
 >
 > composer install
 
-## Usage
-> nohup php singleinsert.php >nohup.log 2>&1  
-> or if you has suffient memory, you can use bulk insert:  
+## Usage  
+If your server has suffcient memory, you can set the memory limit and bulk count in config.ini, and use bulk insert code:  
 > nohup php bulkinsert.php >nohup.log 2>&1
+
+If your server don't hava enough memory, use single insert code, insert one item each time: 
+> nohup php singleinsert.php >nohup.log 2>&1    
