@@ -1,7 +1,7 @@
 # wikidata-to-mongodb
 
 Introduction
-> Read from wikidata json file，and insert into mongodb。
+> Read from wikidata json file and insert into mongodb
 
 Requires  
 > php: >=5.6.0
