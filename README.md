@@ -4,7 +4,7 @@
 Read from wikidata json file and insert into mongodb
 
 ## Requires  
-> php: >=5.6.0 
+> php: >=5.6.0  
 > MongoDB PHP Driver
 
 ## Installation  
