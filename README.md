@@ -17,7 +17,7 @@ Add two dependencies to your project's composer.json file. Here is an minimal ex
 >   "mongodb/mongodb": "^1.1"  
 > 
 > }
->
+> install composer（curl -sS https://getcomposer.org/installer | php）
 > composer install
 
 ## Usage  
